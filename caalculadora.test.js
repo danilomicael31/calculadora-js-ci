@@ -8,7 +8,5 @@ describe('Teste da função somar', () => {
 
     test('Deveria somar dois numeros inteiros negativos', () => {
         expect(somar(-1,-1)).toBe(-2);
-    }
-
-    );
+    });
 });
