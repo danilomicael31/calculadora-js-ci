@@ -10,15 +10,15 @@ jobs:
 
     steps:
       - name: Checkout do repositorio
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       - name: Configura o Node.JS
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
-          node-version: 5.6.0
+          node-version: 18
         
       - name: Instalar dependencias
-        run: npm -install
+        run: npm install
       
       - name: Execultar testes
         run: npm run test
