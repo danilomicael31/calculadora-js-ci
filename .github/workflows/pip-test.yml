@@ -10,10 +10,10 @@ jobs:
 
     steps:
       - name: Checkout do repositorio
-        uses: action/checkout@v4
+        uses: actions/checkout@v4
 
       - name: Configura o Node.JS
-        uses: action/setup-node@v3
+        uses: actions/setup-node@v3
         with:
           node-version: 18
         
